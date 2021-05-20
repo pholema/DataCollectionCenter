@@ -1,0 +1,6 @@
+# JOB_Java_Example.job
+type=javaprocess
+Xmx=2G
+classpath=/software/etl/DataCollectionCenter/lib/*
+jvm.args=-Dproperties.file=/software/etl/DataCollectionCenter/conf/igniteDynamicStringExample.properties
+java.class=com.pholema.job.server.Application
